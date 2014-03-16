@@ -5,20 +5,19 @@
 ###Configuration
 
 ```
-@Configuration
-public class MongoConfiguration extends AbstractMongoConfiguration {
+	@Configuration
+	public class MongoConfiguration extends AbstractMongoConfiguration {
 
-    String getDatabaseName() {
-        "somedb"
-    }
+		String getDatabaseName() {
+			"christmas"
+		}
 
-    Mongo mongo() throws Exception {
-        new Mongo()
-    }
+		Mongo mongo() throws Exception {
+			new Mongo()
+		}
 
-    String getMappingBasePackage() {
-        "my.package.model";
-    }
-}
-
+		String getMappingBasePackage() {
+			"christmas.package.stuff";
+		}
+	}
 ```

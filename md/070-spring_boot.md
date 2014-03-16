@@ -9,3 +9,4 @@
 * Starter + Example builds
 * Metrics
 * No XML
+* Groovy!

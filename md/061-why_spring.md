@@ -3,7 +3,7 @@
 ####Why choose Spring?
 
 * Dependency Injection
-* Integration
+* Glue
 	* JDBC and Hibernate Support
 	* REST Template
 	* many more!
