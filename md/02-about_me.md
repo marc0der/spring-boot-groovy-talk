@@ -1,9 +1,9 @@
 ##About Me
 ###Marco Vermeulen
 
-* JVM Dev for 10+ years
-* Worked for Shazam, Associated Newspapers, Burberry
-* Current: Equal Experts
-* Author of GVM (Groovy enVironment Manager)
-* http://wiredforcode.com
+* Developer of JVM languages (Java, Groovy, Scala)
+* Worked for Shazam, Associated Newspapers, Burberry, Visa
+* Current: HMRC with Equal Experts
+* Creator of GVM (Groovy enVironment Manager)
+* Blog: [Wire for Code](http://wiredforcode.com)
 * Twitter: [@marcoVermeulen](http://twitter.com/marcoVermeulen)
