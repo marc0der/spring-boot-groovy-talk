@@ -1,7 +1,7 @@
 ##About Me
 ###Marco Vermeulen
 
-* Developer of JVM languages (Java, Groovy, Scala)
+* Java, Groovy and Scala Developer
 * Worked for Shazam, Associated Newspapers, Burberry, Visa
 * Current: HMRC with Equal Experts
 * Creator of GVM (Groovy enVironment Manager)

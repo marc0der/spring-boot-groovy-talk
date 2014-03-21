@@ -5,4 +5,4 @@
 * Embedded Container
 * Executable FatJar
 * Installed with Package Manager (RPM/DEB)
-* Use rc.d service scripts to stop/start
+* Use unix service scripts to stop/start
