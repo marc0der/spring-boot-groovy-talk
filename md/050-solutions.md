@@ -7,6 +7,6 @@
 * Django
 * Drop Wizard
 * Vertx
-* Ratpack
 * Grails
+* Ratpack
 * Spring Boot(!)

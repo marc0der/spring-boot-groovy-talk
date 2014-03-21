@@ -3,12 +3,12 @@
 * Concepts
 	* Micro Service Architecture
 	* Spring Framework + Boot
-	* Spring Boot Components
 	* Spring Data + Mongo
+	* Spring Boot Components
 * Demo
-	* Spring Boot + Groovy
-	* Cucumber, Spock
 	* Gradle
+	* Cucumber, Spock
+	* Spring Boot + Groovy
 	* Spring Data + Mongo
 * Hackergarten?
 	* Continuous Integration on Drone.io
