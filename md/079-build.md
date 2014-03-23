@@ -12,6 +12,7 @@ buildscript {
     }
 }
 apply plugin: 'spring-boot'
+apply plugin: 'groovy'
 repositories {
     maven { url 'http://repo.spring.io/milestone' }
 }

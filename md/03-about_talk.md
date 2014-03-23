@@ -9,7 +9,7 @@
 	* Gradle
 	* Cucumber, Spock
 	* Spring Boot + Groovy
-	* Spring Data + Mongo
+	* Spring Data + MongoDB
 * Hackergarten?
 	* Continuous Integration on Drone.io
 	* Deployment to Heroku

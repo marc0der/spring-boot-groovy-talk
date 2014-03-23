@@ -1,7 +1,9 @@
 ####Micro Service Architecture
 
-###Located in dedicated VCS roots
+###Dedicated VCS roots
 
-* Each app completely separate
-* Okay to duplicate domains
-* Common code extracted as dependencies
+<ul>
+<li class="fragment fadein">Separate Repo per app</li>
+<li class="fragment fadein">Okay to duplicate domains!</li>
+<li class="fragment fadein">Common modules can be extracted</li>
+</ul>

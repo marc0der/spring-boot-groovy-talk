@@ -2,8 +2,10 @@
 
 ####Spring Data for MongoDB
 
-* Java Config support with `AbstractMongoConfiguration`
-* `MongoRepository` interface
-* Exception translateion to `DataAccessException`
-* Object Mapping
-* Much more...
+<ul>
+<li class="fragment highlight-current-blue">Java Config with `AbstractMongoConfiguration`</li>
+<li class="fragment highlight-current-blue">`MongoRepository` interface</li>
+<li class="fragment highlight-current-blue">Exceptions translate to `DataAccessException`</li>
+<li class="fragment highlight-current-blue">Object Mapping</li>
+<li class="fragment highlight-current-blue">Much more...</li>
+</ul>
