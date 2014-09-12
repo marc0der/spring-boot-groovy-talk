@@ -6,11 +6,11 @@
 
 ```
 	@Service
-	class TurkeyService {
+	class SomeService {
 
-		Turkey prepare(Stuffing stuffing){
-			//turkey things
-			return turkey
+		Stuff prepare(String stuffing){
+			//do stuff
+			stuff
 		}
 	}
 

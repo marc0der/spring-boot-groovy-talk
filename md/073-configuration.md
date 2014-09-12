@@ -6,18 +6,14 @@
 
 ```
 	@Configuration
-	public class MongoConfiguration extends AbstractMongoConfiguration {
+	class MongoConfiguration extends AbstractMongoConfiguration {
 
-		String getDatabaseName() {
-			"christmas"
-		}
+	    String getDatabaseName() {
+	        "invasion"
+	    }
 
-		Mongo mongo() throws Exception {
-			new Mongo()
-		}
-
-		String getMappingBasePackage() {
-			"christmas.package.stuff";
-		}
+	    Mongo mongo() throws Exception {
+	        new MongoClient()
+	    }
 	}
 ```

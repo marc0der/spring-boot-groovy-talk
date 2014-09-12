@@ -6,10 +6,10 @@
 
 ```
 	@EnableAutoConfiguration
-	@ComponentScan("christmas.package")
+	@ComponentScan("zim")
 	class Application {
-		static void main(String[] args){
-			new SpringApplication(Application).run(args)
-		}
+	    static void main(String[] args){
+	        new SpringApplication(Application).run(args)
+	    }
 	}
 ```

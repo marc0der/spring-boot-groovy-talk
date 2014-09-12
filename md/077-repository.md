@@ -5,8 +5,9 @@
 ###Repository
 
 ```
-@Repository
-interface StuffRepository extends MongoRepository<Stuffing, BigInteger>{
-	List<Stuffing> findByName(String name)
-}
+	@Repository
+	interface QuoteRepository extends MongoRepository<Quote, BigInteger> {
+	    List<Quote> findByName(String name)
+	}
+
 ```

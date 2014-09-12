@@ -6,23 +6,21 @@
 
 ```
 	@Controller
-	@RequestMapping("/festivity")
-	class FestivityController {
+	class InvasionController {
 
-		@Autowired
-		StuffingRepository repository
+	    @Autowired
+	    QuoteRepository repository
 
-		@Autowired
-		TurkeyService service
+	    @RequestMapping("/invader/{name}")
+	    @ResponseBody ResponseEntity quote(@PathVariable String name){
+	        def quotes = repository.findByName(name)
+	        if(!quotes) throw new InvaderNotFoundException(name)
 
-		@RequestMapping("/party/{party}")
-		@ResponseBody ResponseEntity party(@PathVariable String party){
-			def stuffing = repository.findByName(party)
-			def turkey = service.prepare(stuffing)
-			new ResponseEntity(turkey, OK)
-		}
+	        def quote = quotes[(int)(Math.random() * quotes.size())]
+	        new ResponseEntity(quote, OK)
+	    }
 	}
 
 ```
 
-context: `/myapp/festivity/party/christmas`
+context: `/invader/zim`

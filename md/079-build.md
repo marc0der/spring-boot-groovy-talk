@@ -5,21 +5,23 @@
 ```
 buildscript {
     repositories {
-        maven { url "http://repo.spring.io/libs-snapshot" }
+        url "http://repo.spring.io/libs-release"
     }
     dependencies {
-        classpath "o..sf..boot:spring-boot-gradle-plugin:1.0.0.RC3"
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:1.1.5.RELEASE"
     }
 }
 apply plugin: 'spring-boot'
 apply plugin: 'groovy'
 repositories {
-    maven { url 'http://repo.spring.io/milestone' }
+    url 'http://repo.spring.io/release'
 }
 dependencies {
-    compile "org.codehaus.groovy:groovy:2.2.2"
-    compile "org.springframework.boot:spring-boot-starter-web:1.0.0.RC4"
-    compile "org.springframework.data:spring-data-commons:1.6.2.RELEASE"
+    compile "org.codehaus.groovy:groovy:2.3.7"
+    compile "org.springframework.boot:spring-boot-starter-web"
+    compile "org.springframework.boot:spring-boot-starter-actuator"
+    compile "org.springframework.boot:spring-boot-starter-remote-shell"
+    compile "org.springframework.boot:spring-boot-starter-data-mongodb"
 }
 ```
 `build.gradle`
